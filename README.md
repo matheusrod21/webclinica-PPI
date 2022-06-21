@@ -15,4 +15,5 @@ Algumas funcionalidades: sistema de login completo e Session PHP, agendamentos d
 - Bootstrap
 - AJAX
 
+## Integração:
 - Banco de dados: MySQL
