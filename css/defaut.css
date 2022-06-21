@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  background-color: rgb(223, 223, 223);
+  font-size: 1.2em;
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+  padding: 0.6%;
+}
+
+#contato {
+  list-style-type: none;
+  padding-left: 0%;
+  font-weight: bold;
+}
+
+/* BARRA DE NAVEGAÇAO */
+
+.navbar {
+  background-color: white;
+  border-bottom: 0.9px solid rgb(189, 189, 189);
+  width: 100%;
+  padding: 0 30px;
+  margin: 0px 0px 0px 0px;
+}
+
+.itemmenu {
+  margin: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.4em;
+}
+
+/* SLIDES */
+
+#slide {
+  margin: 0px 0px 80px 0px;
+}
+
+/* TEXTOS PRINCIPAIS E IMAGEM */
+
+.sobre {
+  width: 1680px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.sobre img {
+  height: auto;
+  width: 430px;
+}
+
+/* RODAPE */
+
+.mapa {
+  display: flex;
+  max-width: 86%;
+  margin: 0 auto;
+}
+
+#listarodape {
+  list-style-type: none;
+  padding-left: 0.8%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.4em;
+  color: rgb(255, 255, 255);
+}
+
+#imgrodape {
+  float: right;
+}

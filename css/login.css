@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+main {
+  padding-top: 5%;
+}
+
+#loginbox {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main > h3 {
+  text-align: center;
+  color: blue;
+  margin-bottom: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2em;
+}
+
+#botao {
+  margin-top: 1.5%;
+}
+
+#loginFailMsg {
+  display: none;
+  color: red;
+  text-align: center;
+}
